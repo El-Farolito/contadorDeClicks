@@ -1,0 +1,31 @@
+.contador{
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 25px;
+    font-size: 160px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid white;
+    background-color: rebeccapurple;
+    box-shadow: 0 0 10px rebeccapurple;
+}
+
+@media (min-width: 768px){
+    .contador{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: 50px auto;
+        padding: 25px;
+        font-size: 160px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 8px solid white;
+    }
+}
