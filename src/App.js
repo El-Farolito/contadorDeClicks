@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
 
       <div className='freecodecamp-logo-contenedor'>
-       
+       <img className='freeCodeCamp-logo' src={require('./imagenes/logo_large.png')} />
       </div>
 
       <div className='contenedor-principal'>
