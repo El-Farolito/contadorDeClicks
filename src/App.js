@@ -1,7 +1,7 @@
 import './App.css';
 import Boton from './componentes/Boton';
 import Contador from './componentes/Contador'
-import freeCodeCampLogo from './imagenes/logo_large.png'
+
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
 
       <div className='freecodecamp-logo-contenedor'>
-       <img className='freeCodeCamp-logo' src={freeCodeCampLogo} />
+       
       </div>
 
       <div className='contenedor-principal'>
