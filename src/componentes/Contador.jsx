@@ -4,7 +4,7 @@ import '../css/Contador.css'
 function Contador ({numeroDeClicks}){
     return ( 
         <div className='contador'>
-            {numeroDeClicks}
+            <p>{numeroDeClicks}</p>
         </div>
     )
 }
